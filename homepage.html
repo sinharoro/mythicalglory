@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Homepage</title>
+  <style>
+
+html {
+    scroll-behavior: smooth;
+}
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 20px;
+}
+
+.image {
+  position: relative;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image:hover img {
+  transform: scale(1.1);
+}
+
+.gallery2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.video {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.video video {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.video:hover video {
+  transform: scale(1.05);
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#images">Images</a></li>
+        <li><a href="#videos">Videos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Home</h2>
+      <p>Hi! I am Shone Mark Tayong, 20years old, lives in Ozamis city and a BS Computer Science student.</p>
+      <p>I like playing online games</p>
+      <p>I like playing basketball</p>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>The Lux Mundis Cup 2023 at Tangub City Global College is the pinnacle of athletic camaraderie and spirited competition, where students come together to showcase their sportsmanship and skill in a variety of intramural events. This prestigious tournament not only celebrates the pursuit of physical excellence but also fosters a sense of community and unity among participants, embodying the college's commitment to holistic development and the flourishing of a vibrant, interconnected student body.</p>
+    </section>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <section id="images">
+      <h2>Images</h2>
+      <div class="gallery">
+        <div class="image">
+          <img src="endless.jpg" alt="Image 1">
+        </div>
+    
+        <div class="image">
+          <img src="ds.jpg" alt="Image 2">
+        </div>
+
+        <div class="image">
+            <img src="ics.jpg" alt="Image 2">
+          </div>
+
+          <div class="image">
+            <img src="cd.jpg" alt="Image 2">
+          </div>
+
+          <div class="image">
+            <img src="mr and ms.jpg" alt="Image 2">
+          </div>
+
+          <div class="image">
+            <img src="pilikula.jpg" alt="Image 2">
+          </div>
+    
+      </div>
+    </section>
+
+    <section id="Videos">
+      <h2>Videos</h2>
+      <div class="gallery2">
+        <div class="video">
+          <video controls>
+            <source src="video1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+    
+        <div class="video">
+          <video controls>
+            <source src="video2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+    
+      </div>
+  
+    </section>
+  </main>
+
+    
+  </body>
+  </html>
+  
+</body>
+</html>
